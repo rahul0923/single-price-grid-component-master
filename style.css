@@ -1,0 +1,42 @@
+/* Global */
+
+body {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  background-color: hsl(204, 43%, 93%);
+  padding: 100px;
+}
+
+.container {
+    margin: 0 auto;
+    background: #fff;
+}
+.primary {
+    color: hsl(179, 62%, 43%);
+}
+
+.join-message {
+    background: #fff;
+    padding: 20px;
+}
+
+.join-details {
+ color: #fff;
+}
+
+.subscription-info {
+    background-color: hsl(179, 62%, 43%);
+}
+
+.join-details {
+    background-color: hsla(179, 62%, 43%, .8) ;
+    padding: 20px;
+}
+
+.highlight {
+  color: hsl(71, 73%, 54%);
+}
+
+.join-message p {
+    color: hsl(218, 22%, 67%);
+}
