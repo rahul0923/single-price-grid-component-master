@@ -4,39 +4,121 @@ body {
   font-family: 'Karla', sans-serif;
   font-size: 16px;
   background-color: hsl(204, 43%, 93%);
-  padding: 100px;
 }
 
-.container {
-    margin: 0 auto;
-    background: #fff;
-}
-.primary {
-    color: hsl(179, 62%, 43%);
-}
-
-.join-message {
-    background: #fff;
-    padding: 20px;
+.single-price-banner {
+  box-shadow: 0px 1px 12px rgba(0,0,0,0.22);
+  margin: 0 auto; 
+  margin-top: 100px;
+  overflow: hidden; 
+  width: 45vw;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
 }
 
-.join-details {
- color: #fff;
+.join-us {
+  padding: 20px;
+  padding-left: 40px;
+  background: #fff;
 }
 
-.subscription-info {
-    background-color: hsl(179, 62%, 43%);
+.join-us__headline {
+  color: hsl(179, 62%, 43%);
 }
 
-.join-details {
-    background-color: hsla(179, 62%, 43%, .8) ;
-    padding: 20px;
+.join-us__caption {
+  color:hsl(71, 73%, 54%);
 }
 
-.highlight {
-  color: hsl(71, 73%, 54%);
+.join-us__info {
+  color: hsl(218, 22%, 67%);
+  line-height: 1.5em;
 }
 
-.join-message p {
-    color: hsl(218, 22%, 67%);
+.details {
+  display: flex;
+  color: #fff;
+}
+
+.subscription-info {  
+  flex: 1;
+  background: hsl(179, 62%, 43%);
+  padding-left: 40px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.join-info {
+  flex: 1;
+  background: hsl(179, 62%, 43%, 0.7);
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.sign-up {
+  font-size: 14px;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 0px;
+  color: #fff;
+  background-color: hsl(71, 73%, 54%);
+}
+
+.sign-up--big {
+  display: block;
+  width: 100%;
+}
+
+.amount {
+  display: inline-block;
+  font-size: 2em;
+  margin: 0px;
+  margin-right: 10px;
+}
+
+.month {
+  font-size: 14px;
+  vertical-align: top;
+  display: inline-block;
+  color: rgb(117, 222, 230);
+  margin-top: 12px;
+}
+
+.join-info__benefits {
+  list-style-type: none;
+  padding-left: 0px;
+  font-size: 14px;
+  color: rgb(196, 248, 248);
+  line-height: 1.3em;
+}
+
+/** Media queries **/
+@media only screen and (max-width: 1200px) {
+  .single-price-banner {
+    width: 65vw;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .single-price-banner {
+    width: 75vw;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .single-price-banner {
+    width: 80vw;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .single-price-banner {
+    margin-top: 70px;
+    margin-bottom: 30px;
+  }
+  .details {
+    flex-direction: column;
+  }
 }
