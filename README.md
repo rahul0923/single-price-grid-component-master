@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/rahul0923/single-price-grid-component-master)
+- Live Site URL: [Add live site URL here](https://rahul0923.github.io/single-price-grid-component-master/)
 
 ## My process
 
@@ -52,25 +52,36 @@ Use this section to recap over some of your major learnings while working throug
 To see how you can add code snippets, see below:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+Usage of symantic html like
+<main>
+    <div>
+        <section></section>
+    </div>
+</main>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.subscription-info {  
+  flex: 1;
+  background: hsl(179, 62%, 43%);
+  padding-left: 40px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 40px;
 }
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+
+.join-info {
+  flex: 1;
+  background: hsl(179, 62%, 43%, 0.7);
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
 ```
 
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
+- [Example resource 1](http://getbem.com/introduction/) - This helped me understand how to use BEM format for my css classes
 
 ## Author
 
